@@ -1,0 +1,19 @@
+// Mis estilos propios: se aplican encima del tema minima.
+
+// Colores de los enlaces (cámbialos aquí si quieres otro tono)
+$rosa:            #ff6eb4; // enlace normal
+$rosa-visitado:   #e0559c; // enlace ya visitado
+$rosa-hover:      #ff9ccc; // al pasar el ratón por encima
+
+a {
+  color: $rosa;
+
+  &:visited {
+    color: $rosa-visitado;
+  }
+
+  &:hover {
+    color: $rosa-hover;
+    text-decoration-color: $rosa-hover;
+  }
+}
