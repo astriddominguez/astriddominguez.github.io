@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git para principiantes: los comandos básicos"
-date: 2026-11-05
+date: 2026-11-05 01:00:00 +0000
 tags: [git, principiantes, terminal]
 ---
 
