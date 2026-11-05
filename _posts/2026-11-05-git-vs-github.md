@@ -5,67 +5,53 @@ date: 2026-11-05
 tags: [git, github, gitlab, principiantes]
 ---
 
-Los principiantes a menudo confunden **Git** con **GitHub**. Son herramientas **diferentes**, pero **complementarias**:
+Cuando se empieza a programar es muy habitual mezclar Git y GitHub, porque casi siempre aparecen juntos. Pero son dos cosas distintas que se complementan: Git es la herramienta que guarda las versiones de tu proyecto, y GitHub es una web donde subes esas versiones para tenerlas en la nube y compartirlas con otras personas.
 
-- **Git** lleva el **control de versiones** de tu proyecto.
-- **GitHub** es una **plataforma en la nube** donde guardas esas versiones y puedes **compartirlas con otros colaboradores**.
+## Git: el historial, en tu ordenador
 
----
-
-## 💻 Git: tu historial, en tu ordenador
-
-- Se instala en tu **entorno local** (tu PC).
-- Funciona **sin internet**.
-- Cada vez que guardas una "foto" de tu proyecto se llama **commit**, y va acompañada de un **mensaje** que explica qué cambiaste.
-- Así puedes **volver a una versión anterior** si la lías. 😅
+Git es un programa que se instala en tu ordenador y funciona sin internet. Cada vez que quieres guardar el estado de tu proyecto haces un *commit*, que es como sacar una foto de cómo están tus archivos en ese momento, junto con un mensaje que explica qué has cambiado. Gracias a eso, si algo se rompe, puedes volver a una versión anterior.
 
 ```bash
-git add .                         # elige qué cambios guardar
-git commit -m "Añado la portada"  # guarda la foto con su mensaje
+git add .                         # preparo todos los cambios
+git commit -m "Añado la portada"  # los guardo con un mensaje
 ```
 
----
+Todo esto ocurre en tu ordenador. Nadie más lo ve todavía.
 
-## 🌐 GitHub: tu proyecto, en la nube
+## GitHub: el proyecto, en la nube
 
-- Es una **página web** que guarda una copia de tu proyecto (con todo su historial).
-- Sirve para tener una **copia de seguridad** y **trabajar en equipo**.
-- Extra: con **GitHub Pages** puedes publicar una web gratis (¡como este blog!).
+GitHub es una página web que guarda una copia de tu proyecto con todo su historial. Sirve como copia de seguridad, para trabajar en equipo y para enseñar tu código a otras personas.
+
+Para pasar los cambios de tu ordenador a GitHub y al revés, se usan dos comandos de Git:
 
 ```bash
-git push   # sube tus commits a GitHub
-git pull   # baja los cambios más recientes
+git push   # subo mis commits a GitHub
+git pull   # bajo los cambios que hay en GitHub
 ```
 
----
+Un ejemplo cercano: este blog. Los posts los escribo en mi ordenador y los guardo con Git. Cuando hago `git push`, se suben a un repositorio de GitHub, y GitHub Pages los convierte en la web que estás leyendo, gratis.
 
-## 🔀 Alternativas a GitHub
+## No solo existe GitHub
 
-GitHub no es la única opción. Todas estas plataformas usan **Git** por debajo, así que si sabes Git, sabes usarlas:
+GitHub es la plataforma más conocida, pero hay otras. Todas usan Git por debajo, así que lo que aprendas de Git te sirve en cualquiera:
 
 | Plataforma | En pocas palabras |
 |---|---|
-| **GitHub** | La más popular. Mucha comunidad. |
-| **GitLab** | Muy parecida a GitHub. Puedes instalarla **en tu propio servidor**. |
-| **Bitbucket** | De Atlassian. Encaja con Jira y Trello. |
-| **Codeberg** | Gratis y sin ánimo de lucro. |
+| GitHub | La más popular, con mucha comunidad. |
+| GitLab | Muy parecida a GitHub. Se puede instalar en tu propio servidor. |
+| Bitbucket | De Atlassian. Se integra bien con Jira y Trello. |
+| Codeberg | Gratuita y sin ánimo de lucro. |
 
-### 🏠 GitLab en tu propio servidor
+### GitLab en un servidor propio
 
-Imagina que **no quieres que tu código esté en internet**. Con GitLab puedes instalarlo en un **servidor propio** (de tu casa o de tu empresa) y tener algo muy parecido a GitHub, pero **bajo tu control**.
+Esto me pareció lo más interesante de las alternativas. Si no quieres que tu código esté en servidores de otra empresa, puedes instalar GitLab en un servidor tuyo, en casa o en tu empresa, y tener algo muy parecido a GitHub pero bajo tu control.
 
-- GitLab tiene una **versión gratuita** que puedes instalar tú misma.
-- Puede **ahorrarte dinero** si ya tienes los recursos (un servidor y tiempo para mantenerlo).
-- Ojo: el servidor, las actualizaciones y las copias de seguridad corren **de tu cuenta**.
+GitLab tiene una versión gratuita que puedes instalar tú misma, y si ya tienes un servidor puede salir más barato que pagar por un servicio. La parte menos bonita es que entonces el mantenimiento es cosa tuya: actualizaciones, copias de seguridad y que el servidor no se caiga.
 
-> 💡 GitHub también se puede instalar en un servidor propio (GitHub Enterprise Server), pero es **de pago** y está pensado para empresas. Por eso GitLab suele ser la opción preferida para esto.
+GitHub también se puede instalar en un servidor propio (se llama GitHub Enterprise Server), pero es de pago y está pensado para empresas grandes. Por eso, para esto, GitLab suele ser la opción más elegida.
 
----
+## En resumen
 
-## ✅ Resumen
+Git guarda las versiones de tu proyecto en tu ordenador. GitHub, GitLab, Bitbucket y compañía guardan una copia en la nube (o en tu propio servidor) para compartirla. Por eso tiene sentido aprender primero Git: la plataforma la puedes elegir después, y cambiar de una a otra no cuesta mucho.
 
-1. **Git** guarda las versiones → en tu ordenador.
-2. **GitHub, GitLab, Bitbucket…** guardan y comparten → en la nube (o en tu propio servidor).
-3. Primero aprende Git. Luego elige plataforma.
-
-¿Tú también pensabas que eran lo mismo? ¡Cuéntamelo! 💜
+En el siguiente post explico los comandos básicos de Git para empezar a usarlo.
