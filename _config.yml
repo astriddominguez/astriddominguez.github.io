@@ -1,20 +1,25 @@
 # Configuración del blog. Tras cambiar este archivo, GitHub reconstruye el sitio solo.
 title: Mi Blog
-author: Astrid
+author:
+  name: Astrid
 description: >-
   Un espacio para aprender en público: notas, explicaciones y cosas que voy descubriendo.
 lang: es
 
-# Cambia TU-USUARIO por tu usuario de GitHub
 url: "https://astriddominguez.github.io"
 baseurl: ""
 
-theme: minima
+# Versión nueva del tema minima (tiene modo oscuro)
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
 minima:
+  # Colores. Opciones: auto (claro/oscuro según el visitante), classic (claro),
+  # dark (oscuro), solarized-light, solarized-dark, solarized (auto con tonos solarized)
+  skin: dark
   date_format: "%d/%m/%Y"
 
 header_pages:
