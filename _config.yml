@@ -1,0 +1,31 @@
+# Configuración del blog. Tras cambiar este archivo, GitHub reconstruye el sitio solo.
+title: Mi Blog
+author: Astrid
+description: >-
+  Un espacio para aprender en público: notas, explicaciones y cosas que voy descubriendo.
+lang: es
+
+# Cambia TU-USUARIO por tu usuario de GitHub
+url: "https://astriddominguez.github.io"
+baseurl: ""
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  date_format: "%d/%m/%Y"
+
+header_pages:
+  - about.md
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+permalink: /:year/:month/:day/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

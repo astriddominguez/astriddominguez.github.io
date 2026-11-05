@@ -1,0 +1,4 @@
+# Solo hace falta para ver el blog en tu ordenador (opcional).
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"
