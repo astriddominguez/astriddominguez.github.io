@@ -180,4 +180,4 @@ Y después abro un Pull Request en GitHub para que lo revisen.
 
 Si quieres tenerlos todos a mano, la [chuleta oficial de Git](https://git-scm.com/cheat-sheet) está muy bien para imprimirla o dejarla abierta en otra pestaña.
 
-Yo todavía me equivoco con algunos de estos comandos, así que si ves algo mal explicado, dímelo.
+
