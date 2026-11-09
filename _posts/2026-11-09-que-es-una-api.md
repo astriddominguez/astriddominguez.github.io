@@ -4,7 +4,6 @@ title: "¿Qué es una API? Peticiones, métodos HTTP y códigos de estado"
 date: 2026-11-09 01:00:00 +0000
 category: "Backend y seguridad"
 tags: [api, http, backend, principiantes]
-published: false
 ---
 
 Cuando usamos una web o una app del móvil, estamos intercambiando información todo el rato: nuestro lado, el **cliente** (el navegador o la app), le pide cosas al **servidor**, y el servidor le responde. Ese intercambio pasa a través de una **API**. Y no siempre es entre un cliente y un servidor: dos servidores también pueden hablar entre ellos usando APIs.
