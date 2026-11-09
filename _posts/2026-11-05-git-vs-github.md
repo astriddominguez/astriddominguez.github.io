@@ -2,6 +2,7 @@
 layout: post
 title: "Git vs GitHub: ¿no son lo mismo?"
 date: 2026-11-05 00:00:00 +0000
+category: "Git y buenas prácticas"
 tags: [git, github, gitlab, principiantes]
 ---
 

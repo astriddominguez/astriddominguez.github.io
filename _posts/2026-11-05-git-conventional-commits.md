@@ -2,6 +2,7 @@
 layout: post
 title: "Conventional Commits: cómo escribir mensajes de commit que se entiendan"
 date: 2026-11-05 02:00:00 +0000
+category: "Git y buenas prácticas"
 tags: [git, github, conventional-commits, buenas-practicas, principiantes]
 ---
 

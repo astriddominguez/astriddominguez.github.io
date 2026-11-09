@@ -2,6 +2,7 @@
 layout: post
 title: "Git para principiantes: los comandos básicos"
 date: 2026-11-05 01:00:00 +0000
+category: "Git y buenas prácticas"
 tags: [git, principiantes, terminal]
 ---
 
