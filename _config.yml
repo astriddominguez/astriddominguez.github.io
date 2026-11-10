@@ -3,7 +3,7 @@ title: Astricode
 author:
   name: Astrid
 description: >-
-  Programación, buenas prácticas, tecnología e IA, explicadas de forma clara mientras aprendo.
+  Blog de desarrollo de software: programación, backend, buenas prácticas, tecnología e IA, explicados de forma clara y con ejemplos prácticos.
 lang: es
 
 url: "https://astriddominguez.github.io"
@@ -21,6 +21,9 @@ minima:
   # dark (oscuro), solarized-light, solarized-dark, solarized (auto con tonos solarized)
   skin: dark
   date_format: "%d/%m/%Y"
+  # Iconos de redes en el pie de página
+  social_links:
+    - { platform: github, user_url: "https://github.com/astriddominguez" }
 
 header_pages:
   - temas.md
