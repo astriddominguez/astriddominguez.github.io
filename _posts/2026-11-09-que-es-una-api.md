@@ -179,5 +179,5 @@ La respuesta será tu usuario con un id nuevo y un código **201**. (Tranquilida
 
 Una API es la forma en que los programas hablan entre sí: el cliente hace una petición con un método (GET, POST, PUT, PATCH o DELETE) a un endpoint, y el servidor responde con un código de estado y, normalmente, unos datos en JSON.
 
-Ahora bien, si tú creas una API, ¿cómo sabe otra persona qué endpoints tiene y qué datos tiene que enviar? De eso hablaré en el próximo post: OpenAPI y Swagger.
+Ahora bien, si tú creas una API, ¿cómo sabe otra persona qué endpoints tiene y qué datos tiene que enviar? De eso hablaré en el próximo post: Swagger.
 
